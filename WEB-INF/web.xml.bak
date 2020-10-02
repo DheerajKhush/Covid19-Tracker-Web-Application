@@ -1,0 +1,14 @@
+<web-app>
+<servlet>
+<servlet-name>abc</servlet-name>
+<servlet-class>HelloForm</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>xyz</servlet-name>
+<servlet-class>DataForm</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>abc</servlet-name>
+<url-pattern></url-pattern>
+</servlet-mapping>
+</web-app>
